@@ -16,12 +16,13 @@
     "type": "git",
     "url": "git+https://github.com/ftacchini/flexible-dummy-framework.git"
   },
-  "author": "",
+  "author": "ftacchini",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ftacchini/flexible-dummy-framework/issues"
   },
   "homepage": "https://github.com/ftacchini/flexible-dummy-framework#readme",
+  "typings": "./dts/src/index.d.ts",
   "dependencies": {
     "flexible-core": "0.0.10"
   },
