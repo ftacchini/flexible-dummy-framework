@@ -1,0 +1,34 @@
+{
+  "name": "flexible-dummy-framework",
+  "version": "0.0.0",
+  "description": "A dummy framework for flexible",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "npm run unit-test && npm run integration-test",
+    "unit-test": "jasmine JASMINE_CONFIG_PATH=jasmine.unit-test.json",
+    "integration-test": "jasmine JASMINE_CONFIG_PATH=jasmine.integration-test.json",
+    "build": "rimraf dist && rimraf dts && tsc",
+    "version-minor": "npm version minor && git push && git push --tags",
+    "version-patch": "npm version patch && git push && git push --tags",
+    "version-major": "npm version major && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftacchini/flexible-dummy-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ftacchini/flexible-dummy-framework/issues"
+  },
+  "homepage": "https://github.com/ftacchini/flexible-dummy-framework#readme",
+  "dependencies": {
+    "flexible-core": "0.0.10"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.9",
+    "jasmine": "^2.99.0",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.9.2"
+  }
+}
