@@ -1,6 +1,6 @@
 {
   "name": "flexible-dummy-framework",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A dummy framework for flexible",
   "main": "dist/src/index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   "homepage": "https://github.com/ftacchini/flexible-dummy-framework#readme",
   "typings": "./dts/src/index.d.ts",
   "dependencies": {
-    "flexible-core": "0.0.10"
+    "flexible-core": "0.1.0"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.9",
     "jasmine": "^2.99.0",
     "rimraf": "^2.6.1",
-    "typescript": "^2.9.2"
+    "typescript": "^3.6.3"
   }
 }
