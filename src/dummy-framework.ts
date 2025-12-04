@@ -10,7 +10,7 @@ export class DummyFramework implements FlexibleFramework {
             return;
         });
     }
-    
+
     public async createPipelineDefinitions(): Promise<FlexiblePipelineDocument[]> {
         return this.definitions;
     }
