@@ -1,7 +1,8 @@
 {
   "name": "flexible-dummy-framework",
   "version": "0.2.0",
-  "description": "A dummy framework for flexible",
+  "description": "[DEPRECATED] A dummy framework for flexible - Use flexible-core instead",
+  "deprecated": "This package has been deprecated. Use 'flexible-core' instead, which now includes DummyFramework.",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "npm run unit-test && npm run integration-test",
